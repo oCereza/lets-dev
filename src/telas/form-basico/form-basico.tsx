@@ -4,7 +4,7 @@ import {Logo} from "../../imagens"
 
 // import { Container } from './styles';
 
-const Formbasico: React.FC = () => {
+ const Formbasico: React.FC = () => {
     function tagPorNome(nomeTag: string, isRadioButton: boolean = false) {
         const tag = document.getElementsByName(nomeTag) as any;
       
@@ -13,7 +13,7 @@ const Formbasico: React.FC = () => {
             if (tag[pos].checked) return tag[pos];
           }
         } else return tag[0];
-      }
+      };
       
       function enviarFormulario(event: FormEvent) {
         event.preventDefault();
