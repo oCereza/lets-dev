@@ -40,7 +40,7 @@ import {Logo} from "../../imagens"
       const cancelar = (event: FormEvent) => {
         // Evita o redirecionamento padrão para outra tela e manda um alert
         event.preventDefault();
-        alert("Cancelando...");
+        window.location.href = "/";
       };
 
   return (

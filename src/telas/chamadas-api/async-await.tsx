@@ -8,9 +8,9 @@ const AsyncAwait: React.FC = () => {
 
     axios
     .get("https://api.github.com/users/oCereza")
-    .then((resposta) => { setMinhaFotoDePerfil(resposta.data.avatar_url);
+    .then((resposta: any) => { setMinhaFotoDePerfil(resposta.data.avatar_url);
     })
-    .catch((erro) => { console.log(erro) })
+    .catch((erro: any) => { console.log(erro) })
     .finally(() => { console.log("Foi") })
 
     // const buscarDadosDoGitHub = () => {

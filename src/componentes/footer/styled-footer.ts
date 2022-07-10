@@ -5,7 +5,7 @@ export const Footer = styled.footer`
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 30px;
-  width: 100;
+  width: 100%;
   background: #231f20;
   padding: 50px;
 `;
